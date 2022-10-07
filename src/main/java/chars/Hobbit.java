@@ -1,8 +1,9 @@
 package chars;
+
 import kicks.CryKick;
 
 public class Hobbit extends Character {
-    public Hobbit(){
+    public Hobbit() {
         super(3, 0, new CryKick());
     }
 }
