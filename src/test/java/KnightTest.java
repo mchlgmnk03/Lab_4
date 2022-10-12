@@ -1,11 +1,11 @@
 import chars.Knight;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
+import chars.Character;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class KnightTest {
-    private Knight character;
+    private Character character;
 
     @BeforeEach
     public void init() {
@@ -14,7 +14,7 @@ public class KnightTest {
 
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof chars.Character);
+        assertTrue(character instanceof Character);
     }
 
     @Test

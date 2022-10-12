@@ -1,20 +1,19 @@
-import chars.King;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import chars.Character;
+import chars.King;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class KingTest {
-    private King character;
+    private Character character;
 
     @BeforeEach
-    public void init() {
-        character = new King();
-    }
+    public void init() { character = new King(); }
 
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof chars.Character);
+        assertTrue(character instanceof Character);
     }
 
     @Test
